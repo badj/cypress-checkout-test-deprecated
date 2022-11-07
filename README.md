@@ -72,6 +72,8 @@ https://user-images.githubusercontent.com/3204581/200205136-d07ff8d6-e7d1-4bf3-9
 
 5. Successful Run - Video recording with *failed tests retried*
 
+- *cypress-checkout-test3-all-tests-in-1-spec- no test set to skip*
+
 https://user-images.githubusercontent.com/3204581/200117566-cf129642-47a2-4929-9894-3f50873365fd.mp4
 
 ## Gotchas
@@ -95,5 +97,5 @@ Npm install : FetchError: request to http://registry.npmjs.org/... failed, reaso
 3. [Docker](https://www.docker.com/) containerisation to package the forked ["Automation practice"](http://automationpractice.com/) app into a container allowing Cypress tests to run in and against the local docker instance.
 4. Cypress test kicked off/run with [Jenkins](https://www.jenkins.io/) or [Circle CI](https://circleci.com/).
 5. Database integration to showcase test run setups and tear downs.
-6. Create a [containerised workflow with docker and openshift](https://github.com/OBVIOCO/cypress-checkout-test/new/main?filename=.github%2Fworkflows%2Fopenshift.yml&workflow_template=deployments%2Fopenshift) Or [Azure](https://github.com/OBVIOCO/cypress-checkout-test/new/main?filename=.github%2Fworkflows%2Fazure-webapps-node.yml&workflow_template=deployments%2Fazure-webapps-node) or [Amazon ECS](https://github.com/OBVIOCO/cypress-checkout-test/new/main?filename=.github%2Fworkflows%2Faws.yml&workflow_template=deployments%2Faws).
+6. Create a [containerised workflow with docker and openshift](https://github.com/OBVIOCO/cypress-checkout-test/new/main?filename=.github%2Fworkflows%2Fopenshift.yml&workflow_template=deployments%2Fopenshift) Or [Azure](https://github.com/OBVIOCO/cypress-checkout-test/new/main?filename=.github%2Fworkflows%2Fazure-webapps-node.yml&workflow_template=deployments%2Fazure-webapps-node) Or [Amazon ECS](https://github.com/OBVIOCO/cypress-checkout-test/new/main?filename=.github%2Fworkflows%2Faws.yml&workflow_template=deployments%2Faws).
 7. [Improve Building the project in NodeJS with npm and grunt](https://github.com/OBVIOCO/cypress-checkout-test/new/main?filename=.github%2Fworkflows%2Fnpm-grunt.yml&workflow_template=ci%2Fnpm-grunt).
