@@ -58,14 +58,17 @@ This repo contains Cypress tests for login and cart checkout assertions with the
 
 4. Successful Run - Video recordings with no failures *(no test retry)*
 
-4.1. *cypress-checkout-test1-verify-valid-credentials-spec*
-TODO add video here
+- *cypress-checkout-test1-verify-valid-credentials-spec*
 
-4.2. *cypress-checkout-test2-e2e-checkout-journey-spec*
-TODO add video here
+https://user-images.githubusercontent.com/3204581/200205090-373ed8c9-7b33-4c53-a07a-c4e6c52cfdc7.mp4
 
-4.3. *cypress-checkout-test3-all-tests-in-1-spec*
-TODO add video here
+- *cypress-checkout-test2-e2e-checkout-journey-spec*
+
+https://user-images.githubusercontent.com/3204581/200205113-64175d94-d772-4aa8-9c7b-887a3a611add.mp4
+
+- *cypress-checkout-test3-all-tests-in-1-spec*
+
+https://user-images.githubusercontent.com/3204581/200205136-d07ff8d6-e7d1-4bf3-9335-0d935090ab8c.mp4
 
 5. Successful Run - Video recording with *failed tests retried*
 
