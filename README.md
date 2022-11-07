@@ -21,6 +21,8 @@ This repo contains Cypress tests for login and cart checkout assertions with the
 - *Mochawesome reporter* for test run reporting.
 - Test run *Video with compression* support.
 - *Failed test retry* support.
+- *Skipping tests* support
+- *Multiple specs* run
 
 ## Pre-requisites
 1. [NodeJS installed](https://nodejs.org/en/download/).
@@ -37,24 +39,33 @@ This repo contains Cypress tests for login and cart checkout assertions with the
 - `npm run testWithBrowserNoExit`: To run the tests headed and the Cypress runner will remain open after the test run completed *(Test run video will keep recording until Cypress runner is closed/killed!)*.
 6. When the test run completed, a *test results report* will be generated in the `cypress/reports/result.html/index.html` path.
 
-## Expected/Successful run samples
+## Expected - Successful - Retried - Skipped - test run samples:
 
-1. Successful Run - Cart checkout page in Cypress runner with Electron browser:
+1. Successful Run with `testWithBrowserNoExit`- Cart checkout page in Cypress runner with Electron browser:
 
 ![Cart checkout page in Cypress Electron browser runner with no testWithBrowserNoExit npm run](Cypress_Electron_runner_cart_page.jpg)
 
-2. Successful Run - From Terminal/CLI with passed test results output:
+2. Successful Run with `testHeadless` - Terminal/CLI with test results output:
 
 ![Successful run from Terminal with passed test results output](terminal_cypress1.jpg)
 ![Successful run from Terminal with passed test results output](terminal_cypress2.jpg)
+![Successful run from Terminal with passed test results output](terminal_cypress3.jpg)
+![Successful run from Terminal with passed test results output](terminal_cypress4.jpg)
 
 3. Successful Run - Cypress Test Results from the HTML report with passed test results output:
 
 ![Successful Run - Cypress Test Results HTML report with passed test results output](Cypress_Test_Results_html_report.jpg)
 
-4. Successful Run - Video recording with no failures *(no test retry)*
+4. Successful Run - Video recordings with no failures *(no test retry)*
 
-https://user-images.githubusercontent.com/3204581/200117517-c88fd926-c3e6-41ff-9659-280ca7d86cab.mp4
+4.1. *cypress-checkout-test1-verify-valid-credentials-spec*
+TODO add video here
+
+4.2. *cypress-checkout-test2-e2e-checkout-journey-spec*
+TODO add video here
+
+4.3. *cypress-checkout-test3-all-tests-in-1-spec*
+TODO add video here
 
 5. Successful Run - Video recording with *failed tests retried*
 
@@ -83,4 +94,3 @@ Npm install : FetchError: request to http://registry.npmjs.org/... failed, reaso
 5. Database integration to showcase test run setups and tear downs.
 6. Create a [containerised workflow with docker and openshift](https://github.com/OBVIOCO/cypress-checkout-test/new/main?filename=.github%2Fworkflows%2Fopenshift.yml&workflow_template=deployments%2Fopenshift) Or [Azure](https://github.com/OBVIOCO/cypress-checkout-test/new/main?filename=.github%2Fworkflows%2Fazure-webapps-node.yml&workflow_template=deployments%2Fazure-webapps-node) or [Amazon ECS](https://github.com/OBVIOCO/cypress-checkout-test/new/main?filename=.github%2Fworkflows%2Faws.yml&workflow_template=deployments%2Faws).
 7. [Improve Building the project in NodeJS with npm and grunt](https://github.com/OBVIOCO/cypress-checkout-test/new/main?filename=.github%2Fworkflows%2Fnpm-grunt.yml&workflow_template=ci%2Fnpm-grunt).
-
