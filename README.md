@@ -66,7 +66,7 @@ https://user-images.githubusercontent.com/3204581/200205090-373ed8c9-7b33-4c53-a
 
 https://user-images.githubusercontent.com/3204581/200205113-64175d94-d772-4aa8-9c7b-887a3a611add.mp4
 
-- *cypress-checkout-test3-all-tests-in-1-spec*
+- *cypress-checkout-test3-all-tests-in-1-spec- 1 test skipped*
 
 https://user-images.githubusercontent.com/3204581/200205136-d07ff8d6-e7d1-4bf3-9335-0d935090ab8c.mp4
 
