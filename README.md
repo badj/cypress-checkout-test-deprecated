@@ -30,7 +30,7 @@ This repo contains Cypress tests for login and cart checkout assertions with the
 
 ## Setup
 1. Clone this repository or download the zip and extract it.
-2. Go to the *testdata* file: `cypress/fixtures/testdata.json`.
+2. Go to the extracted *testdata* file: `cypress/fixtures/testdata.json`.
 3. Enter your registered [*Automation practice*](http://automationpractice.com/) `email` and `password` in `testdata.json` and save the file.
 4. Open your terminal to the root directory of the project *(cypress-checkout-test)* and run `npm install` command in the terminal/cli to install all dev dependencies.
 5. Run `npm run {script option}` to execute the tests in the cli:
