@@ -2,8 +2,8 @@
 This repo contains Cypress tests for login and cart checkout assertions with the ["Automation practice"](http://automationpractice.com/) e-commerce store to showcase the Cypress Test Framework.
 
 ## Project information
-### This project contains two Cypress tests:
-1. Log in check for *Automation Practice* e-commerce store *(Sanity run to verify valid login credentials to be used for test 2)*.
+### This project contains two Cypress functional journey tests for multiple specs to verify:
+1. Log in check for *Automation Practice* e-commerce store *(A sanity run to verify valid login credentials to be used for test 2 and other specs)*.
 2. Log in to the Automation Practice e-commerce store:
 - Search for the item *"Printed Summer Dress"*
 - Select the *cheapest dress*
