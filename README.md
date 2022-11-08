@@ -39,7 +39,7 @@ This repo contains Cypress tests for login and cart checkout assertions with the
 - `npm run testWithBrowserNoExit`: To run the tests headed and the Cypress runner will remain open after the test run completed *(Test run video will keep recording until Cypress runner is closed/killed!)*.
 6. When the test run completed, a *test results report* will be generated in the `cypress/reports/result.html/index.html` path.
 
-## Expected - Successful - Retried - Skipped - test run samples:
+## Expected (Successful - Retried - Skipped) test run samples:
 
 1. Successful Run with `testWithBrowserNoExit`- Cart checkout page in Cypress runner with Electron browser:
 
