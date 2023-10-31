@@ -1,5 +1,5 @@
 # E-commerce Checkout Test to showcase [Cypress.io](https://www.cypress.io/) as a Test Framework 
-This repo contains Cypress tests for login and cart checkout assertions with the [(Deprecated /offline online store)
+This repo contains Cypress tests for login and cart checkout assertions with the [(Now Deprecated /offline)
 "Automation practice"](http://automationpractice.com/) e-commerce store to showcase the Cypress Test Framework.
 
 ## Project information
