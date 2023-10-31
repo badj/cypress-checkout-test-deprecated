@@ -1,5 +1,6 @@
 # E-commerce Checkout Test to showcase [Cypress.io](https://www.cypress.io/) as a Test Framework 
-This repo contains Cypress tests for login and cart checkout assertions with the ["Automation practice"](http://automationpractice.com/) e-commerce store to showcase the Cypress Test Framework.
+This repo contains Cypress tests for login and cart checkout assertions with the [(Deprecated /offline online store)
+"Automation practice"](http://automationpractice.com/) e-commerce store to showcase the Cypress Test Framework.
 
 ## Project information
 ### This project contains two Cypress functional journey tests for multiple specs to verify:
